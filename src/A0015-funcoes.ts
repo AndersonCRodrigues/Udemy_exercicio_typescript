@@ -1,8 +1,8 @@
-type mapStringsCallback = (item: string) => string;
+type MapStringsCallback = (item: string) => string;
 
 export function mapStrings(
   array: string[],
-  callbackfn: mapStringsCallback,
+  callbackfn: MapStringsCallback,
 ): string[] {
   const newArray: string[] = [];
 
